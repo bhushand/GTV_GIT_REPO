@@ -1,0 +1,78 @@
+#login-form-container {
+	margin: auto;
+	width: 250px;
+	background: #2A2A2A;
+	border-radius: 5px;
+	font-size: 14px;
+	opacity: 0.80;
+	padding: 20px;
+}
+
+#facebook-login-button {
+	background: #3A5EAC;
+	border-radius: 5px;
+	border: 1px solid;
+	border-color: #FFF;
+	margin-bottom: 20px;
+	padding: 5px;
+	text-align: center;
+	color: #FFF;
+}
+
+#register-button {
+	background: #5C5C5C;
+	padding: 5px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: 1px solid;
+	border-color: #FFF;
+	color: #FFF;
+	text-align: center;
+	cursor: pointer;
+}
+
+.login-input {
+	margin-bottom: 20px;
+	padding: 10px;
+	color: orange;
+	font-weight: bold;
+	border-radius: 4px;
+	width: 100%;
+}
+
+.login-submit {
+	background: #EA5410;
+	color: #FFF;
+	border: 1px solid #284473;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	height: 37px;
+	width: 100%;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+}
+
+#login-form-container input,
+#login-form-container textarea,
+#login-form-container select,
+#login-form-container label {
+	box-sizing: border-box;
+}
+
+.login-submit:active {
+	background: #ee763f;
+}
+
+#forgot-password {
+	text-align: center;
+	color: #FFF;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+#forgot-password:hover {
+	text-decoration: underline;
+}
